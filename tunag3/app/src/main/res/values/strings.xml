@@ -2,4 +2,11 @@
     <string name="app_name">tunag3</string>
     <string name="add_user">新規会員登録はこちら</string>
     <string name="add_button">会員登録</string>
+    <string name="user_name">名前</string>
+    <string name="user_Name">名前</string>
+    <string name="user_tel">TEL</string>
+    <string name="user_mail">Mail</string>
+    <string name="user_pass">Pass</string>
+    <string name="addUser_Button">登録</string>
+    <string name="addUser_cancel">戻る</string>
 </resources>
