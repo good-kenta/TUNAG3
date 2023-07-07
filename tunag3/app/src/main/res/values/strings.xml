@@ -9,4 +9,8 @@
     <string name="user_pass">Pass</string>
     <string name="addUser_Button">登録</string>
     <string name="addUser_cancel">戻る</string>
+    <string name="log_in">ログイン</string>
+    <string name="log_mail">Mail</string>
+    <string name="log_pass">Pass</string>
+    <string name="login_button">ログイン</string>
 </resources>
