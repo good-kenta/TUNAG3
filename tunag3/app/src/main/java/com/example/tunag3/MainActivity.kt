@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding.addButton.setOnClickListener{ addButtonTapped(it) }
     }
     fun addButtonTapped(view: View?){
-        val intent = Intent(this, addUser::class.java)
+        val intent = Intent(this, AddUser::class.java)
         startActivity(intent)
 //        binding = ActivityMainBinding.inflate(layoutInflater)
 //        val view = binding.root
