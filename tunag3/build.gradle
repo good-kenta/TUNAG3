@@ -1,15 +1,16 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+//https://www.mongodb.com/docs/realm/sdk/java/install/#std-label-java-install
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
     dependencies {
-        classpath "io.realm:realm-gradle-plugin:6.0.2"
+        classpath "io.realm:realm-gradle-plugin:10.11.1"
     }
 }
-
 plugins {
     id 'com.android.application' version '8.0.2' apply false
     id 'com.android.library' version '8.0.2' apply false
     id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
 }
+
